@@ -1,0 +1,59 @@
+h1{
+    text-align:center;
+    text-shadow: 10px 10px 10px rgba(141, 20, 68, 0.3);
+    color: rgb(65, 194, 77);
+    font-size: 30px;
+    font-family:serif,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    /* multipal fornt family use becuase if browser is not support one then outo metic move secound fount*/
+}
+h3{
+    text-align: left;
+    color: #fc763cb7;
+    text-shadow: 10px 10px 10px rgba(186, 122, 65, 0.1);
+    font-weight: 550; 
+    font-style:oblique;
+    text-decoration-line:underline;
+    text-decoration-color: #b2ac77;
+    text-decoration-style:initial;
+}
+h2{
+    color: orange;
+    text-shadow: 10px 10px 10px rgba(207, 152, 26, 0.15);
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-family: Verdana, Geneva, sans-serif;;
+    font-size: 13px;
+    text-transform: upercase;
+    letter-spacing: 1.5px;
+    font-weight: 450;
+    color: #000;
+    background-color: #b0c0f7;
+    border: none;
+    border-radius: 450px;
+    box-shadow: 10px 10px 10px rgba(67, 128, 129, 0.5); /*a means areya--> like bihind background how many area sow rgb*/
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 10px 10px rgba(47, 111, 239, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+p{
+    letter-spacing:0.9px;
+    font-weight: 450; 
+    line-height: 20px;
+    font-size: 16px;
+    font-family:"Arial Narrow", Arial, sans-serif; font-style: normal; font-variant: normal;  
+}
+body{
+        background-color: #333333; /* Light background color */
+        color: #9ea8d0; /* Dark text color */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form exmple</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <!--using name-> it is a aditional in part like (chek withot name(only server) and name(come server and particulare name)->in link section)-->
+            <label for="username">username</label>
+            <input
+            type="username"
+            id="username"
+            placeholder="enter username"
+            name="name" /><!-- http://127.0.0.1:5500/server?name=dgdgdg this is output, coming proper name=____ -->
+        </div>
+        <div>
+            <label for="passwords">password</label>
+            <input 
+            type="password"
+            id="passwords"
+            placeholder="passwords" />
+        </div>
+        <div>
+            <!--form into form not possible-->
+            <label>coosing a subject : </label>
+            <input type="checkbox" id="maths" name="subject" />
+            <label for="maths">maths</label>
+            <input type="checkbox" id="physics" name="subject" />
+            <label for="physics">physics</label>
+            <input type="checkbox" id="chemesity" name="subject" />
+            <label for="chemesity">chemesity</label>
+            <input type="checkbox" id="computer" name="subject" />
+            <label for="computer">computer</label>
+        </div>
+        <dive>
+            <lable for="city">choose your currant district</lable>
+            <select name="district" id="city" >
+                <option value="Surat">surat</option>
+                <option value="Aham">Ahamdabad</option>
+                <!--not passing Ahambdabad passing a value (like value work name) 
+                exmple:http://127.0.0.1:5500/server?name=&district=Aham -->
+                <option value="Rajcot">Rajcot</option>
+            </select>
+        </dive>
+        <div>
+            <label for="feedback">Please give your expirence in this website</label>
+            <textarea id="feedback" name="feedback" rows="3" cols="50"></textarea>
+            <br>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+html is like scaletan
+css is like a body
+css give styles in html cord and websidt
+    IN line style
+    <h1 style="color: rgba(208, 34, 14, 0.873);">Apna college</h1>-->
+
+    <!--deffernt stline in head area-->
+    <!--<style>
+        h1 {
+            color: blueviolet;
+            background-color: peru;
+        }
+        </style>-->
+    <!--this is set all h1 teg in document-->
+    <!--in line is only particular h1 teg -->
+    <!--but real life multipal html documets hend so this two type is not helpfull-->
+
+    <!--precticaly useful for External style-->
+    <!-- in this use deffent css file-->
+
+    <!--Linking for HTML and css-->
+    <!-- 
+        <link rel="stylesheet" href="style.css">  --  same folder use for css file then use only file name in href 
+        but different foldore then use file parth-->
+
+
+
+--color system 
+1)
+color = black;
+> each browser recognized around 140 name colore like red, green, pink, teal,etc.
+
+2)
+RGB--> read, green, blue(0-225)
+color = rgb(0,0,0)
+exmple : rgb(255,0,0) , rgb(0,255,0), reg(0,0,255)--> single colore 
+         rgb(255,255,0)--> mix for tow 
+
+3)
+Haxadecimal or hax --> color=#ffffff;
+letters: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
+exmple-- ff0055,f56b20
+
+<-- px(picsal) in not use for responcive website--> like use leptop,mobile,pc,Ipade, etc this area px size is fixe
+--> so  px not change in defreent web sutable. ->96px=1 inch
+
+
+->> I am fist study for eliment selector--> you selecte particular eliment like->buttion,h1,h2,p,etc.
+universal selector-->*{}
