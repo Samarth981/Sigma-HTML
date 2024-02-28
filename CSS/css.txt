@@ -47,3 +47,11 @@ exmple-- ff0055,f56b20
 
 ->> I am fist study for eliment selector--> you selecte particular eliment like->buttion,h1,h2,p,etc.
 universal selector-->*{}
+
+-->Combinator--> p+h3{}--> style aply in h3 but aplya only for--> p after coming h3
+                       --> exmlep-> <p><h3><h3>
+                       --> only applya first h3 because <p> and then <h3> come.--> <p><h3>
+                       --> not applya h3 then h3 like--> <h3><h3>
+
+-> hover selector--> buttion:hover{}--> after couser move there and changing
+--> active--> buttion:active{} --> after clike buttion and change 
