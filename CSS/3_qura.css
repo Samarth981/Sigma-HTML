@@ -29,7 +29,7 @@ body{
 p+h3{
     color: rgb(46, 0, 0);
 }
-div > input{
+header > div > input{
     background : 10px,-5px,10px rgb(193, 194, 155);
     box-shadow: 4px -5px 4px rgb(183, 175, 87);
     margin: 0px 7.5px 0px;
@@ -60,3 +60,9 @@ nav:hover{
     box-shadow: 5px 4px 8px #B92B27;
     color:rgba(55, 5, 238, 0.845);
 } 
+
+input[type="radio"]:checked + label{ 
+    /*lable add because lable and input both are relation(id-for relation)*/
+    color: red;
+    font-weight: bold;
+}
