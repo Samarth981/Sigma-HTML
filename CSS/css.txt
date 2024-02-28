@@ -57,4 +57,6 @@ universal selector-->*{}
             -> hover selector--> buttion:hover{}--> after couser move there and changing
             -> active--> buttion:active{} --> after clike buttion and change 
 
-(seudo eliment)-->
+(seudo eliment)--> first-latter, first-line, selection etc.
+            -> this is a particular element ya line change
+ 
