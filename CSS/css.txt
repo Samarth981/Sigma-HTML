@@ -53,5 +53,8 @@ universal selector-->*{}
                        --> only applya first h3 because <p> and then <h3> come.--> <p><h3>
                        --> not applya h3 then h3 like--> <h3><h3>
 
--> hover selector--> buttion:hover{}--> after couser move there and changing
---> active--> buttion:active{} --> after clike buttion and change 
+(seudo class)--> hover, active, nth-if-type(), checked etc
+            -> hover selector--> buttion:hover{}--> after couser move there and changing
+            -> active--> buttion:active{} --> after clike buttion and change 
+
+(seudo eliment)-->

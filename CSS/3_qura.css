@@ -11,6 +11,15 @@ h1{
     margin: 0px 2px 0px;
     transition: all 0.5s ease 0s;
 }
+.sudo {
+    background-color: #debaf2;
+    color: #ffae00;
+    box-shadow: 1px -5px 3px #ff91d7;
+}
+.sudo:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 5px 1px rgb(255, 218, 184);
+}
 .upvote , .answer{
     cursor: pointer;
     border-radius:4px;
@@ -65,4 +74,9 @@ input[type="radio"]:checked + label{
     /*lable add because lable and input both are relation(id-for relation)*/
     color: red;
     font-weight: bold;
+}
+div:nth-of-type(2n){
+    /* it like maths 3 then 3rd dive is chang */
+    /* if 2n then 2,4,6... is change*/
+    background-color: rgb(216, 237, 239);
 }
