@@ -61,7 +61,7 @@ div:nth-of-type(2n){
 /* Styling Specific Elements */
 header > div > input{
     background : 10px,-5px,10px rgb(193, 194, 155);
-    box-shadow: 4px -5px 4px rgb(183, 175, 87);
+    box-shadow: 3px -1px 7px rgb(156 87 183);
     margin: 0px 7.5px 0px;
 }
 nav ul > li > a:hover{
