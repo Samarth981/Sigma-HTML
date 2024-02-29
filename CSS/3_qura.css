@@ -37,7 +37,7 @@ div:nth-of-type(2n){
 #signup:active, #login:active{
     /*cleak the buttion and change*/
     box-shadow: 5px 4px 8px #B92B27;
-    color:rgba(55, 5, 238, 0.845);
+    color:rgb(0 0 0 / 85%);
 } 
 
 /* Elements with Class "sudo" */
@@ -89,7 +89,7 @@ p+h3{
     color: rgb(46, 0, 0);
 }
 span > button:hover{
-    box-shadow: 2px 10px 10px rgba(225, 122, 175, 0.5);
+    box-shadow: 1px 4px 6px 0px rgba(225, 122, 175, 0.5);
     transform: scale(1.1,1.1);
     border-radius: 5mm;
     border: 0.5mm ridge rgba(133, 60, 150, 0.769);
