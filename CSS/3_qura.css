@@ -42,7 +42,7 @@ div:nth-of-type(2n){
 
 /* Elements with Class "sudo" */
 .sudo {
-    background-color: #debaf2;
+    background-color: #c7ddeb;
     color: #ffae00;
     box-shadow: 1px -5px 3px #ff91d7;
     }
