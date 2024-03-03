@@ -1,0 +1,35 @@
+.circul{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(255, 123, 0);
+    border-radius: 50%;
+}
+.smile{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 0 0px 20px 20px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    right: 50px;
+}
+/* if i am change .eyes class then both left and right eyes change wuth respect to .eyes but I tray to with respect to circule so I use .=.right-eyes, .left-eyes */
+/* all position set for maths useing*/
+.right-eyes, 
+.left-eyes{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    /* set for both in left and right */
+    /* both is override because same size same position*/
+    position:absolute;
+    left:50px;
+    top:60px;
+}
+.right-eyes{
+    left: 120px; /* move right eyes in right side*/
+}
+
+
