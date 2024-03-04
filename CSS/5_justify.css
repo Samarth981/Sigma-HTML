@@ -1,0 +1,107 @@
+.boxA{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(96, 100, 214, 0.671);
+}
+.box1{
+    background-color:red;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color:yellow;
+}
+.box4{
+    background-color:salmon;
+}
+.box5{
+    background-color:blue;
+}
+.box6{
+    background-color:purple;
+}
+.box7{
+    background-color:rgb(0, 195, 255);
+}
+.boxA div{
+    height: 100px;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+/* set a box possition for image */
+.fleximg{
+    position: absolute;
+    top: 10px;
+    left: 810px;
+}
+#img-justify{
+    width: 400px;
+}
+/*change flext*/
+.boxA{
+    /* position is set in row and fit-> by default row-> left to right in bot--> width change */
+    display: flex; 
+    flex-direction:row; /*right to left. same in colem*/ 
+}
+
+
+.boxB{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(96, 214, 129, 0.671);
+    margin-top: 10px;
+}
+.box1{
+    background-color:red;
+}
+.box2{
+    background-color:green;
+}
+.box3{
+    background-color:yellow;
+}
+.box4{
+    background-color:salmon;
+}
+.box5{
+    background-color:blue;
+}
+.box6{
+    background-color:purple;
+}
+.box7{
+    background-color:rgb(0, 195, 255);
+}
+.boxB div{
+    height: 100px;
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+/*change flext*/
+.boxB{
+    /* position is set in row and fit-> by default row-> left to right in bot--> width change */
+    display: flex; 
+    flex-direction:row; /*right to left. same in colem*/ 
+}
+
+
+/*direction-> controal a direction*/
+/*justify-->flex-> controal a content like where postion to start content like end,start,center*/
+.boxA{
+    justify-content:flex-start;  /*start left-start to right*/
+    justify-content:flex-end; /*start left-end to right*/
+    justify-content: center;  /*start center*/
+}
+/*justify-->space-> controal a space like two box between space, starting space,etc*/
+.boxB{
+    justify-content:space-between;  /*start and end point no space */
+    justify-content:space-around; /*startand & end point harf space with respect to tow box between space */
+    justify-content: space-evenly;  /*start, and tow box between space is same */
+}
+
+
+
+
