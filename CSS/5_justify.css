@@ -78,7 +78,11 @@
     height: 100px;
     width: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+}
+.boxB>.box3{
+    font-size: 50px;
+    text-align:center;
 }
 /* set a box possition for image */
 .fleximg2{
@@ -105,15 +109,17 @@
 .boxA{
     align-content: flex-start; /*by default*/
     align-items: flex-end; /* in uper boxA is set a center-> main axis and then this line is cross axis going end-> center end */
-    align-items: center; 
+    align-items: center;
     /* in uper boxA is set a center-> main axis and then this line is cross axis going center-> both canter right to left & up to doun*/
 }
-
 /*justify-->space-> controal a space like two box between space, starting space,etc*/
 .boxB{
     justify-content:space-between;  /*start and end point no space */
     justify-content:space-around; /*startand & end point harf space with respect to tow box between space */
     justify-content: space-evenly;  /*start, and tow box between space is same */
+}
+.boxB{
+    align-items: baseline; /* content same line not boxes*/
 }
 
 
