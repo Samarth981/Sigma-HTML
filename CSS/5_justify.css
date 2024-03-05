@@ -133,7 +133,7 @@
     justify-content:space-around; /*startand & end point harf space with respect to tow box between space */
     justify-content: space-evenly;  /*start, and tow box between space is same */
 }
-
-
-
-
+/* if I am tray to box indivisual aline then use alin-self-> notes-> It's work for cross axis*/
+.box5{
+    align-self: flex-end; /* BoxA-> Box5-> not work because flex-war use-> so if flex reap than this not work*/
+}
