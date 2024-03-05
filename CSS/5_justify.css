@@ -26,7 +26,7 @@
 }
 .boxA div{
     height: 100px;
-    width: 40px;
+    width: 100px;
     text-align: center;
     font-size: 18px;
 }
@@ -105,21 +105,33 @@
     justify-content:flex-end; /*start left-end to right*/
     justify-content: center;  /*start center*/
 }
-/* along cross axis->justify-->flex->controal a content like postion to start content like end,start,center*/
+
+/* along cross axis->aline-->flex->controal a content like postion to start content like end,start,center*/
 .boxA{
-    align-content: flex-start; /*by default*/
-    align-items: flex-end; /* in uper boxA is set a center-> main axis and then this line is cross axis going end-> center end */
     align-items: center;
+    align-items: flex-end; /* in uper boxA is set a center-> main axis and then this line is cross axis going end-> center end */
+    align-content: flex-start; /*by default*/
     /* in uper boxA is set a center-> main axis and then this line is cross axis going center-> both canter right to left & up to doun*/
 }
-/*justify-->space-> controal a space like two box between space, starting space,etc*/
+
+/* along cross axis-> aline-->space-> controal a space like two box between space, starting space,etc*/
+.boxA{
+    flex-wrap: wrap;
+    /* align-cotent-> space->work if line is more then 1 -> because this work is cross axis if cross axis is single line then not work*/
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+} 
+
+
+.boxB{
+    align-items: baseline; /* content same line not boxes*/
+}
+/* along main axis-> justify-->space-> controal a space like two box between space, starting space,etc*/
 .boxB{
     justify-content:space-between;  /*start and end point no space */
     justify-content:space-around; /*startand & end point harf space with respect to tow box between space */
     justify-content: space-evenly;  /*start, and tow box between space is same */
-}
-.boxB{
-    align-items: baseline; /* content same line not boxes*/
 }
 
 
