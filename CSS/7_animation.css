@@ -1,0 +1,83 @@
+/* animation property aleredy use*/
+/* this animation writing style change not property*/
+
+/* 2-step*/
+.box1{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(65, 65, 158);
+    color: white;
+    animation-name: fontAnimation; 
+    animation-duration: 3s;
+    animation-timing-function: ease 0s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box1{
+    animation-name:coloreAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease 0s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+.box1{
+    /* animation-name:backgroundAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease 0s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /*in one line*/
+    animation: coloreAnimation 3s ease-in 0s infinite alternate-reverse;
+} 
+
+
+/* first step*//*this is a templeate*/
+/* @keyframes fontAnimation{
+    from{
+        font-size:12px;
+    }
+    to{
+        font-size: 25px;
+    }
+} */
+
+
+/* @keyframes backgroundAnimation{
+    from{
+        background-color: rgb(158, 65, 152);
+    }
+    to{
+        background-color: rgb(65, 158, 113);
+    }
+} */
+
+
+/* @keyframes coloreAnimation{ 
+    from{
+        font-size:12px;
+        background-color: rgb(158, 65, 152);
+    }
+    to{
+        font-size: 25px;
+        background-color: rgb(65, 158, 113);
+    }
+} */
+@keyframes coloreAnimation{
+    0%{
+        font-size:12px;
+        background-color: rgb(158, 65, 152);
+    }
+    50%{
+        color: brown;
+    }
+    100%{
+        font-size: 25px;
+        background-color: rgb(65, 158, 113);
+    }
+}
+
+
+
