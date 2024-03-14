@@ -35,7 +35,7 @@
                 <div class="options">
                     <div class="lib-option nav-option">
                         <img src="./4_icon/library_icon.png"/>
-                        <a href="#">Your library</a>
+                        <a href="#" id="hide">Your library</a>
                     </div>
                     <div class="icone">
                         <i class="fa-regular fa-plus"></i>
@@ -136,7 +136,45 @@
                 <div class="line"></div>
             </div>
         </div>
-        <div class="music-player">music-player</div>    
+        <div class="music-player">
+            <div class="album">
+                <div class="alb-pic"><img src="./4_icon/musice/album_picture.jpeg" /></div>
+                <div class="alb-pere">
+                    <h3 class="pere1">Daylight</h3>
+                    <h4 class="pere2">David Kumar</h4>
+                </div>
+                <div class="alb-icons">
+                    <img src="./4_icon/musice/album_icon1.png" class="alb-icons1" />
+                    <img src="./4_icon/musice/album_icon2.png" class="alb-icons2" />
+                </div>
+            </div>
+            <div class="play">
+                <div class="play-controll">
+                    <img src="./4_icon/musice/player_icon1.png" class="play-controll-icon" />
+                    <img src="./4_icon/musice/player_icon2.png" class="play-controll-icon" />
+                    <img src="./4_icon/musice/player_icon3.png" class="play-controll-icon play-bar"/>
+                    <img src="./4_icon/musice/player_icon4.png" class="play-controll-icon"/>
+                    <img src="./4_icon/musice/player_icon5.png" class="play-controll-icon"/>
+                </div>
+                <div class="progress-bar">
+                    <span class="curant time">00:00</span>
+                    <input class="range" type="range" min="0" maax="100" id="play-bar" step="1">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-icon">
+                    <img src="./4_icon/musice/controls_icon1.png" class="controls-icon-img set-margin"/>
+                    <img src="./4_icon/musice/controld_icon2.png" class="controls-icon-img set-margin"/>
+                    <img src="./4_icon/musice/controls_icon3.png" class="controls-icon-img img3 set-margin"/>
+                    <img src="./4_icon/musice/controls_icon4.png" class="controls-icon-img img4 set-margin"/>
+                    <img src="./4_icon/musice/controls_icon5.png" class="controls-icon-img img5"/>
+                </div>
+                <div class="control-bar">
+                    <input class="range" type="range" min="0" maax="100" id="controls-bar" step="1">
+                </div>
+            </div>
+        </div>    
     </div>
 </body>
 </html>
