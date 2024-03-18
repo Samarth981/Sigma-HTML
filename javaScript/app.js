@@ -45,3 +45,53 @@ else if(size==='S'){
 }else{
     console.log("Please enter valied size");
 }
+
+//check some 
+let x=9;
+let q=10 , c=8;
+let d=80;
+let ans;
+console.log(ans=q>x&&c>d); // true && flase = flase
+console.log(`${q>x} && ${c>d} = ${q>x&&c>d}`);
+console.log(`${q>x} || ${c>d} = ${q>x || c>d}`);
+console.log(`${q>x} || ${c>d} && !${c>d} = ${(q>x || c>d ) && !c>d}`);  
+// true || false -> true ! false -> ture not a false = true
+
+//truthy & faly check
+if(""){
+    console.log("not empty");
+} else {
+    console.log("empty");
+}
+if(" "){
+    console.log("not empty->ex-2");
+} else {
+    console.log("empty->ex-2");
+}
+
+let day=7;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Tursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Worng day!");
+}
