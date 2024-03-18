@@ -1,4 +1,18 @@
-console.log("fullName", ':', "Samarth Patel");
+// // alert part
+// alert("This is a testing peg");
+// console.log("this is a testing");
+// console.error("This is a give red error");
+// console.warn("wornning!");
+
+// // prompt part
+// let firstName = prompt("Enter first name:");
+// let lastName = prompt("Enter last name:");
+// let msg = `Welcome! ${firstName +" " + lastName}!`;
+// alert(msg)
+// console.log(msg);
+
+
+// console.log("fullName", ':', "Samarth Patel");
 let a=5;
 let b=10;
 console.log("sum is :", a+b); //not print a+b but print output
@@ -94,4 +108,50 @@ switch(day){
         break;
     default:
         console.log("Worng day!");
+}
+
+//assingnmet-2
+console.warn("this is assingnment part");
+
+let number = 50;
+if(number % 10 == 0){
+    console.log("good");
+} else {
+    console.log("Bed");
+}
+
+let Name = prompt("enter name");
+let Age =prompt("age");
+alert(`${Name} is ${Age} year old.` );
+
+let strings = "Aamaerh";
+if( (strings.length > 5)  && (strings[0]=='A' ||  strings[0]=='A' ) ){
+    console.log("golden string")
+} else {
+    console.log("not golden string");
+}
+
+let m=50;
+let n=20;
+let i=8;
+if(m>n){
+    if(m>i){
+        console.log("m is big");
+    }else{
+        console.log("i is big");
+    }
+} else {
+    if(i<n){
+        console.log("n is big");
+    }else{
+        console.log("i is big");
+    }
+}
+
+let digit_1=685;
+let digit_2=658115;
+if((digit_1 % 10) == (digit_2 %10 )){
+    console.log("Last digit is same");
+} else {
+    console.log("last digit is not same");
 }
