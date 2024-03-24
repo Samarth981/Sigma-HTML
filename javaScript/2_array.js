@@ -66,3 +66,40 @@ console.log(abc) //  value change because xyz add p so aoutometic change abc bec
 //if not change if i chang abc then change xyz address like,
 xyz = ['a','b','c']; // value is same but address is deffrent so both are not same
 console.log(xyz==abc); // false because this change address
+
+
+//nested array
+let num=[[1,2],[3,4],[5,6],[7,8]];
+//prectice
+let game=[['x',null,'o'],[null,'x',null],['o',null,'x']];
+game[0][1]='o';
+//q-2
+let ar = [7,9,0,-2];
+let n = 3;
+console.log(ar.slice(0,n));
+console.log(ar.slice(ar.length-n));
+
+//assingment q-3
+let str = prompt("Please enter the text"); // user give input
+if(str.length == 0){
+    console.log("this string is empty");
+} else{
+    console.log("this string is not empty");
+}
+
+let st = str// user give input
+let cher_idx = 3;
+if(st[cher_idx] == st[cher_idx].toUpperCase()){
+    console.log("Upper string");
+} else{
+    console.log("not Upper string");
+}
+// let item=prompt('enter array'); 
+// this is not work because prompt is  returns a string, but in ara are contains numbers so, conver a string into int
+let item = parseInt(prompt('Enter a array'));
+let ara=[2,3,5,7,8];
+if(ara.indexOf(item) != -1){
+    console.log("value is exist in array");
+} else {
+    console.log("value is not exist in array");
+}
